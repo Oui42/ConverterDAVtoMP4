@@ -1,0 +1,15 @@
+# build environment and output
+.venv/
+build/
+dist/
+*.spec
+__pycache__/
+*.pyc
+
+# ffmpeg.exe is downloaded by build.bat (imageio-ffmpeg) and bundled into the .exe
+ffmpeg.exe
+
+# local notes
+CLAUDE.md
+.claude/
+*.local.md
